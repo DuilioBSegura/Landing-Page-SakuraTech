@@ -4,9 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sakura Tech - Inovação e Soluções Tecnológicas">
-    <title>Sakura Tech</title>
-    <!-- Google Fonts -->
+    
+    <!-- SEO Primário -->
+    <title>Sakura Tech | Manutenção e Suporte de Computadores em Bauru e Região</title>
+    <meta name="description" content="Assistência técnica especializada em computadores e notebooks em Bauru e região. Formatação, limpeza preventiva, troca de peças, upgrades e suporte com garantia.">
+    <meta name="keywords" content="manutenção de computadores Bauru, assistência técnica notebook Bauru, formatação PC Bauru, upgrade SSD, limpeza preventiva computador">
+    <meta name="author" content="Sakura Tech">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#562135">
+    <link rel="canonical" href="http://localhost/sakura-tech/">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost/sakura-tech/">
+    <meta property="og:title" content="Sakura Tech | Manutenção e Suporte de Computadores em Bauru e Região">
+    <meta property="og:description" content="Assistência técnica especializada em computadores e notebooks em Bauru e região. Formatação, limpeza preventiva, troca de peças e suporte com garantia.">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Sakura Tech">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sakura Tech | Manutenção e Suporte de Computadores em Bauru e Região">
+    <meta name="twitter:description" content="Assistência técnica especializada em computadores e notebooks em Bauru e região. Formatação, limpeza preventiva, troca de peças e suporte com garantia.">
+
+    <!-- Google Fonts com font-display=swap -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,8 +35,11 @@
 </head>
 
 <body>
+    <!-- Link de Acessibilidade para Leitor de Tela -->
+    <a href="#hero" class="skip-link">Pular para o conteúdo principal</a>
+
     <header class="header">
-        <a href="#" class="logo">Sakura Tech</a>
+        <a href="#" class="logo" aria-label="Sakura Tech Página Inicial">Sakura Tech</a>
         <nav class="nav" aria-label="Navegação principal">
             <button id="btn-menu" class="btn-menu" aria-label="Abrir Menu" aria-expanded="false" aria-controls="nav-list">
                 <span class="hamburger-bar"></span>
@@ -125,7 +149,7 @@
             </div>
 
             <div class="footer-col footer-nav">
-                <h4 class="footer-heading">Navegação</h4>
+                <h3 class="footer-heading">Navegação</h3>
                 <ul class="footer-links">
                     <li><a href="#hero">Início</a></li>
                     <li><a href="#servicos">Serviços</a></li>
@@ -135,7 +159,7 @@
             </div>
 
             <div class="footer-col footer-contact">
-                <h4 class="footer-heading">Contato Direto</h4>
+                <h3 class="footer-heading">Contato Direto</h3>
                 <p class="footer-text">Fale diretamente com nosso técnico especializado:</p>
                 <a href="https://wa.me/5514999999999?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20manuten%C3%A7%C3%A3o%20de%20computador." 
                    class="btn-footer-whatsapp" 
