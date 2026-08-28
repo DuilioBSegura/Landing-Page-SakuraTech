@@ -40,7 +40,35 @@
             </a>
         </section>
 
-        <section id="servicos" class="section"></section>
+        <section id="servicos" class="servicos">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-description">
+                Soluções completas e especializadas para manter seu computador ou notebook sempre rápido, seguro e eficiente.
+            </p>
+            <div class="cards-container">
+                <article class="card">
+                    <h3>Formatação e Reinstalação de Sistema</h3>
+                    <p>
+                        Instalação limpa de Windows ou Linux com backup seguro dos seus arquivos, atualização de drivers e instalação dos softwares essenciais para uso imediato.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Limpeza Preventiva e Troca de Pasta Térmica</h3>
+                    <p>
+                        Desoxidação, remoção completa de poeira interna e aplicação de pasta térmica de alta condutividade para evitar superaquecimento e aumentar a durabilidade das peças.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Upgrade e Troca de Peças</h3>
+                    <p>
+                        Instalação de SSD ultrarrápido, expansão de memória RAM, troca de fontes, teclados, telas e placas de vídeo para máxima performance e velocidade.
+                    </p>
+                </article>
+            </div>
+        </section>
+
         <section id="sobre" class="section"></section>
         <section id="contato" class="section"></section>
     </main>
