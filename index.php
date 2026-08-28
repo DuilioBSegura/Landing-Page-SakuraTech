@@ -69,11 +69,82 @@
             </div>
         </section>
 
-        <section id="sobre" class="section"></section>
-        <section id="contato" class="section"></section>
+        <section id="sobre" class="sobre">
+            <h2 class="section-title">Por Que Escolher a Sakura Tech?</h2>
+            <p class="section-description">
+                Atendimento transparente, diagnóstico preciso e soluções eficientes para seu computador ou notebook em Bauru e toda a região.
+            </p>
+
+            <div class="sobre-grid">
+                <div class="sobre-texto-container">
+                    <p class="sobre-texto">
+                        Sabemos o quanto seu computador é essencial para seu trabalho, estudos e lazer. Por isso, a <strong>Sakura Tech</strong> oferece um serviço diferenciado com foco em agilidade, honestidade técnica e garantia real em todos os reparos.
+                    </p>
+                    <p class="sobre-texto">
+                        Atendemos clientes particulares, profissionais autônomos e gamers em <strong>Bauru, Agudos, Piratininga e cidades vizinhas</strong>, sempre com orçamento detalhado antes de qualquer intervenção.
+                    </p>
+                </div>
+
+                <ul class="diferenciais-list">
+                    <li class="diferencial-item">
+                        <span class="diferencial-destaque">Diagnóstico Transparente</span>
+                        <p>Explicamos exatamente o que seu equipamento precisa, sem custos desnecessários.</p>
+                    </li>
+                    <li class="diferencial-item">
+                        <span class="diferencial-destaque">Agilidade e Pontualidade</span>
+                        <p>Seu equipamento pronto o mais rápido possível para você não perder tempo.</p>
+                    </li>
+                    <li class="diferencial-item">
+                        <span class="diferencial-destaque">Garantia nos Serviços</span>
+                        <p>Segurança e tranquilidade com garantia em mão de obra e peças substituídas.</p>
+                    </li>
+                    <li class="diferencial-item">
+                        <span class="diferencial-destaque">Orçamento sem Compromisso</span>
+                        <p>Atendimento rápido e direto pelo WhatsApp para tirar todas as suas dúvidas.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="footer" id="contato">
+        <div class="footer-container">
+            <div class="footer-col footer-brand">
+                <span class="footer-logo">Sakura Tech</span>
+                <p class="footer-slogan">
+                    Manutenção e suporte especializado de computadores e notebooks com tecnologia, confiança e dedicação.
+                </p>
+                <p class="footer-location">
+                    📍 <strong>Região de Atendimento:</strong> Bauru e Região
+                </p>
+            </div>
+
+            <div class="footer-col footer-nav">
+                <h4 class="footer-heading">Navegação</h4>
+                <ul class="footer-links">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-contact">
+                <h4 class="footer-heading">Contato Direto</h4>
+                <p class="footer-text">Fale diretamente com nosso técnico especializado:</p>
+                <a href="https://wa.me/5514999999999?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20manuten%C3%A7%C3%A3o%20de%20computador." 
+                   class="btn-footer-whatsapp" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   aria-label="Fale conosco no WhatsApp">
+                    WhatsApp: (14) 99999-9999
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sakura Tech. Todos os direitos reservados. Atendendo Bauru e Região.</p>
+        </div>
     </footer>
 </body>
 

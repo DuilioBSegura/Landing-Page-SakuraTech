@@ -233,3 +233,180 @@ header nav ul li a:hover,
     line-height: 1.65;
     color: #553443;
 }
+
+/* ==========================================================================
+   Seção Sobre e Diferenciais Locais
+   ========================================================================== */
+.sobre {
+    padding: 6rem 8%;
+    background-color: var(--cor-sakura-4);
+    text-align: center;
+}
+
+.sobre-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 3rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.sobre-texto-container {
+    text-align: left;
+}
+
+.sobre-texto {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #4a2837;
+    margin-bottom: 1.5rem;
+}
+
+.diferenciais-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.2rem;
+    text-align: left;
+}
+
+.diferencial-item {
+    background-color: #ffffff;
+    padding: 1.4rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--cor-sakura-2);
+    box-shadow: 0 4px 15px rgba(86, 33, 53, 0.05);
+    transition: var(--transicao-suave);
+}
+
+.diferencial-item:hover {
+    transform: translateX(4px);
+    box-shadow: 0 6px 20px rgba(86, 33, 53, 0.1);
+}
+
+.diferencial-destaque {
+    display: block;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--cor-sakura-1);
+    margin-bottom: 0.35rem;
+}
+
+.diferencial-item p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #6b4c5b;
+    margin: 0;
+}
+
+/* ==========================================================================
+   Rodapé Semântico (Footer)
+   ========================================================================== */
+.footer {
+    background-color: var(--cor-sakura-1);
+    color: var(--cor-sakura-4);
+    padding: 4.5rem 8% 2rem;
+    border-top: 3px solid var(--cor-sakura-2);
+    scroll-margin-top: 80px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--cor-sakura-4);
+    margin-bottom: 1rem;
+}
+
+.footer-slogan {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--cor-sakura-5);
+    margin-bottom: 1.2rem;
+    max-width: 380px;
+}
+
+.footer-location {
+    font-size: 0.92rem;
+    color: var(--cor-sakura-4);
+    line-height: 1.5;
+}
+
+.footer-heading {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.3px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.footer-links a {
+    color: var(--cor-sakura-5);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: var(--transicao-suave);
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+    transform: translateX(4px);
+}
+
+.footer-text {
+    font-size: 0.95rem;
+    color: var(--cor-sakura-5);
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+}
+
+.btn-footer-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-whatsapp);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 30px;
+    transition: var(--transicao-suave);
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+    width: fit-content;
+}
+
+.btn-footer-whatsapp:hover {
+    background-color: var(--cor-whatsapp-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
+    color: #ffffff;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 231, 222, 0.15);
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 0.88rem;
+    color: var(--cor-sakura-5);
+    opacity: 0.85;
+}
