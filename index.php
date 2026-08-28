@@ -17,7 +17,12 @@
     <header class="header">
         <a href="#" class="logo">Sakura Tech</a>
         <nav class="nav" aria-label="Navegação principal">
-            <ul class="nav-list">
+            <button id="btn-menu" class="btn-menu" aria-label="Abrir Menu" aria-expanded="false" aria-controls="nav-list">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <ul id="nav-list" class="nav-list">
                 <li><a href="#servicos" class="nav-link">Serviços</a></li>
                 <li><a href="#sobre" class="nav-link">Sobre</a></li>
                 <li><a href="#contato" class="nav-link">Contato</a></li>
@@ -146,6 +151,9 @@
             <p>&copy; 2026 Sakura Tech. Todos os direitos reservados. Atendendo Bauru e Região.</p>
         </div>
     </footer>
+
+    <!-- JavaScript Vanilla -->
+    <script src="./js/script.js" defer></script>
 </body>
 
 </html>
