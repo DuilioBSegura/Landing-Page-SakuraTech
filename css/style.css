@@ -1,8 +1,102 @@
+/* ==========================================================================
+   Variáveis Globais e Paleta de Cores
+   ========================================================================== */
 :root {
     --cor-sakura-1: #562135;
     --cor-sakura-2: #c3829e;
     --cor-sakura-3: #e9b1cd;
     --cor-sakura-4: #ffe7de;
     --cor-sakura-5: #fcd1d7;
+    --fonte-principal: 'Plus Jakarta Sans', sans-serif;
+    --sombra-header: 0 4px 15px rgba(86, 33, 53, 0.12);
+    --transicao-suave: all 0.3s ease;
+}
 
+/* ==========================================================================
+   Reset Básico e Estilos Globais
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-sakura-4);
+    color: var(--cor-sakura-1);
+    min-height: 100vh;
+}
+
+/* ==========================================================================
+   Header e Navegação Semântica
+   ========================================================================== */
+header,
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 8%;
+    background-color: var(--cor-sakura-1);
+    box-shadow: var(--sombra-header);
+}
+
+/* Marca / Logotipo */
+header h1,
+.logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+header h1 a,
+.logo a {
+    color: var(--cor-sakura-4);
+    text-decoration: none;
+    transition: var(--transicao-suave);
+}
+
+header h1 a:hover,
+.logo a:hover {
+    color: var(--cor-sakura-3);
+}
+
+/* Menu de Navegação */
+header nav,
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul,
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+header nav ul li a,
+.nav-link {
+    display: inline-block;
+    color: var(--cor-sakura-4);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: var(--transicao-suave);
+}
+
+/* Efeito Hover nos Links */
+header nav ul li a:hover,
+.nav-link:hover {
+    background-color: var(--cor-sakura-2);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(86, 33, 53, 0.2);
 }
