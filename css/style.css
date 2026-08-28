@@ -25,6 +25,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -32,6 +33,13 @@ body {
     background-color: var(--cor-sakura-4);
     color: var(--cor-sakura-1);
     min-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 section {
@@ -409,4 +417,196 @@ header nav ul li a:hover,
     font-size: 0.88rem;
     color: var(--cor-sakura-5);
     opacity: 0.85;
+}
+
+/* ==========================================================================
+   Responsividade e Media Queries (Mobile & Tablets)
+   ========================================================================== */
+
+/* Tablets e Smartphones (Até 768px) */
+@media (max-width: 768px) {
+    header,
+    .header {
+        flex-direction: column;
+        gap: 0.9rem;
+        padding: 1.1rem 5%;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    header nav,
+    .nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul,
+    .nav-list {
+        gap: 0.75rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li a,
+    .nav-link {
+        padding: 0.5rem 0.9rem;
+        font-size: 0.92rem;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 4rem 1.25rem 3.5rem;
+        min-height: auto;
+    }
+
+    .hero-title,
+    .hero h1 {
+        font-size: 1.9rem;
+        line-height: 1.25;
+        margin-bottom: 1.2rem;
+    }
+
+    .hero-description,
+    .hero p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+
+    .btn-whatsapp {
+        width: 100%;
+        max-width: 340px;
+        padding: 1rem 1.5rem;
+        font-size: 1.05rem;
+    }
+
+    /* Seção de Serviços */
+    .servicos {
+        padding: 4rem 5%;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+
+    .section-description {
+        font-size: 0.98rem;
+        margin-bottom: 2.2rem;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .card {
+        padding: 2rem 1.5rem;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 0.95rem;
+    }
+
+    /* Seção Sobre */
+    .sobre {
+        padding: 4rem 5%;
+    }
+
+    .sobre-grid {
+        grid-template-columns: 1fr;
+        gap: 2.2rem;
+    }
+
+    .sobre-texto {
+        font-size: 0.98rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .diferenciais-list {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .diferencial-item {
+        padding: 1.2rem;
+    }
+
+    /* Rodapé */
+    .footer {
+        padding: 3.5rem 5% 2rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        text-align: center;
+    }
+
+    .footer-slogan {
+        max-width: 100%;
+        margin: 0 auto 1rem auto;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+
+    .btn-footer-whatsapp {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+/* Smartphones Compactos (Até 480px) */
+@media (max-width: 480px) {
+    header,
+    .header {
+        padding: 0.9rem 1rem;
+    }
+
+    header nav ul,
+    .nav-list {
+        gap: 0.4rem;
+    }
+
+    header nav ul li a,
+    .nav-link {
+        padding: 0.45rem 0.7rem;
+        font-size: 0.85rem;
+    }
+
+    .hero-title,
+    .hero h1 {
+        font-size: 1.65rem;
+    }
+
+    .hero-description,
+    .hero p {
+        font-size: 0.95rem;
+    }
+
+    .btn-whatsapp {
+        font-size: 1rem;
+        padding: 0.95rem 1.2rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        padding: 1.6rem 1.2rem;
+    }
+
+    .card h3 {
+        font-size: 1.15rem;
+    }
 }
